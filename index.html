@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DriveSync</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .app-container {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .app-icon {
+      width: 64px;
+      height: 64px;
+      background: #ccc;
+      border-radius: 8px;
+      margin-right: 20px;
+    }
+
+    .app-info {
+      flex-grow: 1;
+    }
+
+    .app-info h1 {
+      margin: 0;
+      font-size: 1.5em;
+    }
+
+    .app-info p {
+      margin: 2px 0;
+      color: #4CAF50;
+      font-weight: bold;
+    }
+
+    .rating {
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    .note {
+      margin: 10px 0;
+      color: #888;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #4CAF50;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+
+    .screenshots {
+      display: flex;
+      gap: 6px; /* Small gap between screenshots */
+      margin-top: 30px;
+      overflow-x: auto;
+    }
+    
+    .screenshot {
+      height: 500px;
+      width: auto;
+      max-width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+  </style>
+</head>
+<body>
+
+  <div class="app-container">
+    <div class="header">
+      <img src="image.png" alt="App Icon" class="app-icon" />
+      <div class="app-info">
+        <h1>DriveSync</h1>
+        <!-- <p>Bundesamt für Meteorologie und Klimatologie</p> -->
+        <div class="rating">★ ★ ★ ★ ★ – 2 users</div>
+      </div>
+    </div>
+
+    <div class="note">
+      <!-- Offers in-app purchases<br> -->
+      ✅ This app is compatible with some of your devices.<br>
+      You can share this with your family. <a href="#">Learn more about Family Library</a>
+    </div>
+
+    <a href="https://drive.google.com/file/d/1UMojERzh9RYYa_ZeIpArEOtdOfCX7m7v/view?usp=sharing" class="button" download>Install</a>
+
+    <div class="screenshots">
+      <img src="Screenshot1.png" alt="Screenshot" class="screenshot" />
+      <img src="Screenshot3.png" alt="Screenshot" class="screenshot" />
+      <img src="Screenshot2.png" alt="Screenshot" class="screenshot" />
+      <div class="screenshot" style="width: 120px;"></div>
+    </div>
+  </div>
+
+</body>
+</html>
